@@ -11,7 +11,7 @@ import java.util.function.Supplier;
     an expression until its value is needed. The opposite of this is eager evaluation,
     where an expression is evaluated as soon as it is bound to a variable.
  */
-public class ArgumentsEvaluation {
+public class LazinessDemo {
 
     public static void main(String args[]) {
         String a = "Ant", b = "Bird";
