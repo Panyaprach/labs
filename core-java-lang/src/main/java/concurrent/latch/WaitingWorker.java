@@ -1,4 +1,4 @@
-package concurrent;
+package concurrent.latch;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
