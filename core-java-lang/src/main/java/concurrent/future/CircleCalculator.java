@@ -24,4 +24,8 @@ class CircleAreaCalculator {
             return area;
         });
     }
+    
+    public void shutdown(){
+        executor.shutdown();
+    }
 }

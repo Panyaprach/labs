@@ -26,5 +26,6 @@ class FutureExecution {
         Double resultOne = futureOne.get();
         Double resultTwo = futureTwo.get();
         System.out.println(resultOne + " and " + resultTwo);
+        circleCalculator.shutdown();
     }
 }
